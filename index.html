@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Project</title>
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-repeat: no-repeat;
+            background-size: 1900px 1000px;
+           
+        }
+
+        h3 {
+            font-size: 50px;
+            font-family: cursive;
+            color: rgb(39, 185, 25);
+            margin: 0px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .navbar {
+            /* border: 2px solid black; */
+            margin: 30px 0px;
+            /* background-color: rgb(5, 3, 3); */
+            border-radius: 12px;
+            height: 30px;
+        }
+
+        .navmenu {
+            text-decoration: none;
+            font-size: 22px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 0px 100px;
+            /* background-color: rgb(255, 255, 255); */
+            color: rgb(0, 0, 0);
+            border-radius: 7px;
+            border:1px solid khaki;
+            padding:2px 3px 
+        }
+        .navmenu:hover {
+            color: rgb(252, 103, 17);
+            transition: 0.5s;
+        }
+        hr{
+         border: 2px solid rgba(214, 203, 203, 0.925);
+        }
+        .search{
+            border: 2px solid black;
+            border-radius: 12px;
+            height: 22px;
+            width: 230px;
+            font-size: 17px;
+            font-weight: bold;
+            color: orangered;   
+        }
+        .forum{
+            /* border: 2px solid black; */
+            border-radius: 50px;
+            height: 640px;
+        }
+        h4{
+            font-size: 40px;
+            text-align: center;
+            color: orangered;
+        }
+        .details{
+            display: block;
+            width: 40%;
+            margin: 60px 450px;
+            font-size: 19px;
+            font-weight: bold;
+            text-align: center;
+            height: 40px;
+            border-radius: 10px;
+            background-color: black;
+            color: rgb(255, 255, 255); 
+        }
+        .btn{
+            font-size: 23px;
+            font-weight: bold;
+            background-color: black;
+            color: whitesmoke;
+            border-radius: 7px;
+            font-family: sans-serif;
+            margin: 10px 700px;
+        }
+        .btn:hover{
+            background-color: rgb(131, 131, 131);
+        }
+        #logo{
+            display: inline-block;
+            /* border: 2px solid black; */
+            width: 10%;
+            filter: invert(10%);
+            margin-left: 44%;
+            
+        }
+        .navbar{
+            position: sticky;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h3>MedicalAdda.com</h3>
+        <img id="logo" src="logo.png" alt="logo">
+        <hr style="opacity: 70%;">
+        <div class="navbar">
+            <a class="navmenu" href="#">Home</a>
+            <a class="navmenu" href="#">Heart Checkup</a>
+            <a class="navmenu" href="#">Contact us</a>
+            <a class="navmenu" href="#">E-Mail</a>
+            <input class="search" type="text" placeholder="Search">
+            <hr style="opacity: 70%;">
+    </header>
+    <div class="forum">
+        <h4>Signup</h4>
+        <input type="text" class="details" placeholder="Enter Your Name">
+        <input type="text" class="details" placeholder="Enter Your Contact Number">
+        <input type="text" class="details" placeholder="Enter Your Age">
+        <input type="text" class="details" placeholder="Enter Your Email">
+        <button class="btn" >SignUp</button>
+    </div>
+</body>
+
+</html>
